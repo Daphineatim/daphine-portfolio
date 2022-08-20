@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-
 *,
 ::after,
 ::before {
@@ -139,7 +136,7 @@ a {
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 120px;
+  grid-row-gap: 88px;
   padding: 30% 20px;
 }
 
@@ -149,6 +146,8 @@ a {
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
 }
 
 .card ul {
