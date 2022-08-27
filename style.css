@@ -18,6 +18,15 @@ html {
   background: #e5e5e5;
 }
 
+.logo {
+  animation-duration: 2s;
+  animation-name: rotationn;
+}
+
+@keyframes rotationn {
+
+}
+
 ul {
   list-style-type: none;
 }
