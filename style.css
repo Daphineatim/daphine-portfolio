@@ -172,7 +172,6 @@ a {
   margin: 20px;
 }
 
-
 .card-img-left img,
 .card-img-right img {
   width: 100%;
@@ -295,7 +294,7 @@ a {
 }
 
 .text-width {
-  width: 30%
+  width: 30%;
 }
 
 .social-media-2 {
@@ -528,7 +527,7 @@ textarea:hover::placeholder {
   }
 
   .headline {
-    padding: 12% 10%
+    padding: 12% 10%;
   }
 
   .social-media {
@@ -598,7 +597,6 @@ textarea:hover::placeholder {
     margin-bottom: 8%;
   }
 
-
   .skill-list {
     width: 60%;
   }
@@ -615,14 +613,6 @@ textarea:hover::placeholder {
     padding: 20px 10px;
     width: 80%;
   }
-
-  /* .language-list li {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5%;
-  } */
 
   .language-list img {
     width: 120%;
