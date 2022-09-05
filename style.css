@@ -77,15 +77,23 @@ a {
 
 .normal-button {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 2px;
+  justify-content: space-between;
   border-radius: 2px;
+  background-color: #fff;
+  padding: 0 60px;
+  position: fixed;
+  width: 100%;
 }
 
-.normal-button ul {
-  visibility: hidden;
+.nav-ul {
+  display: none;
 }
+
+/* .normal-button ul {
+  visibility: hidden;
+} */
 
 #icon-menu {
   padding: 2px;
@@ -500,14 +508,11 @@ textarea:hover::placeholder {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 3%;
-    visibility: visible;
   }
 
   .normal-button li {
     margin-left: 30px;
     font-size: 15px;
-    line-height: 20px;
     font-weight: 500;
     color: #344563;
   }
