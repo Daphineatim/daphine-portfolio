@@ -1,8 +1,9 @@
-# Hello Project
-> This is my First Project in Microverse
+# Project Name
+> Portfolio
 ## Built with
 - HTML
 - CSS
+- Javascript
 ## Getting Started
 > To get a local copy up and running follow these simple example steps. 
 

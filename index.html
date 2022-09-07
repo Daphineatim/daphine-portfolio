@@ -4,31 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
     <title>Daphine's Portfolio</title>
   </head>
   <body>
     <section class="container">
-      <header class="toolbar">
+      <nav class="normal-button">
         <div class="logo">
           <div class="placeholder">
-            <h3 class="anime-logo"><a href="/"></a>My Logo</h3>
+            <div><a href="/"></a></div>
+            <div>My Logo</div>
           </div>
         </div>
 
-        <nav class="normal-button">
-          <ul>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-            <div id="icon-menu">
-              <div class="menu-line"></div>
-              <div class="menu-line"></div>
-              <div class="menu-line"></div>
-            </div>
-          </nav>
-      </header>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button id="close" class="hide">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="nav-ul">
+          <li><a href="#portfolio" class="nav-text-1">Portfolio</a></li>
+          <li><a href="#about" class="nav-text-2">About</a></li>
+          <li><a href="#contact" class="nav-text-3">Contact</a></li>
+        </ul>
+      </nav>
 
     <section class="headline bg-image-1">  
          <div class="text-container">
@@ -46,130 +53,18 @@
             <li><img src="./assets/angellist.svg.svg" alt="angellist" /></li>
           </ul>
           </div>
-          
-        </section>
-    </section>
-
-    <section class="works">
-      <section class="card-img-left">
-          <ul>
-            <li><img src="./assets/tonic.svg.svg" alt="icon" class="img-1-1" /></li>
-             <li><img src="./assets/nature.svg" alt="icon" class="img-1-2" /></li>
-          </ul>
-          <div class="block-1">
-            <div class="text-group">
-              <h3 class="lg-text-2">Tonic</h3>
-              <div class="client-info">
-                <h2 class="client">Canopy</h2>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="role">Back End Dev</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="year-label">2015</h3>
-              </div>
-            </div>
-            <h3 class="sm-text-2">A daily selection of privately personalized reads; no accounts or sign-ups required.</h3>
-            <ul class="tags">
-              <li>html</li>
-              <li class="ruby">Ruby on rails</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-
-            <div class="actions">
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-       </section>
-
-        <section class="card-img-right">
-          <ul>
-            <li><img src="./assets/multi-post-2.svg" alt="icon" class="img-1-1" /></li>
-            <li><img src="./assets/multi-post-2.svg" alt="icon" class="img-1-2" /></li>
-           </ul>
-          <div class="block-2">
-            <div class="text-group">
-              <h2 class="lg-text-2">Multi Stories Post</h2>
-              <div class="client-info">
-                <h3 class="client">FACEBOOK</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="role">Full Stack Dev</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="year-label">2015</h3>
-              </div>
-            </div>
-            <h3 class="sm-text-2">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</h3>
-            <ul class="tags">
-              <li>html</li>
-              <li class="ruby">Ruby on rails</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <div class="actions">
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-        </section>
-
-        <section class="card-img-left">
-          <ul>
-            <li><img src="./assets/tonic-2.svg" alt="icon" class="img-1-1" /></li>
-            <li><img src="./assets/tonic.svg.svg" alt="icon" class="img-1-2" /></li>
-          </ul>
-          <div class="block-1">
-            <div class="text-group">
-              <h2 class="lg-text-2">Facebook 360</h2>
-              <div class="client-info">
-                <h3 class="client">FACEBOOK</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="role">Full Stack Dev</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="year-label">2015</h3>
-              </div>
-            </div>
-            <h3 class="sm-text-2">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</h3>
-            <ul class="tags">
-              <li>html</li>
-              <li class="ruby">Ruby on rails</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <div class="actions">
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-        </section>
-
-        <section class="card-img-right">
-          <ul>
-            <li><img src="./assets/multi-post-2.svg" alt="icon" class="img-1-1"></li>
-            <li><img src="./assets/multi-post-1.svg" alt="icon" class="img-1-2" /></li>
-          </ul>
-          <div class="block-2">
-            <div class="text-group">
-              <h2 class="lg-text-2">Uber Navigation</h2>
-              <div class="client-info">
-                <h3 class="client">Uber</h3>
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="role">Lead Developer</h3> 
-                <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
-                <h3 class="year-label">2018</h3>
-              </div>
-            </div>
-            <h3 class="sm-text-2">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</h3>
-            <ul class="tags">
-              <li>html</li>
-              <li class="ruby">Ruby on rails</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-            <div class="actions">
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-        </section>
+          </section>
+    
+ <section id="portfolio">
+        <section id="portfolio-1"></section>
+        <section id="portfolio-2"></section>
+        <section id="portfolio-3"></section>
+        <section id="portfolio-4"></section>
       </section>
+      <section id="myModal" class="modal"></section>
 
-      <section>
+    
+      <section id="about">
         <div class="div-container about">
         <div class="top">
           <h2 class="lg-text-1 text-width">About Myself</h2>
@@ -220,7 +115,7 @@
         </div>
         </section>
 
-        <footer class="bg-color-1">
+        <footer class="bg-color-1" id="contact">
           <div class="contact-me">
             <div class="bg-image-2">
             <div class="contact-container">
@@ -245,11 +140,15 @@
                 required
                 maxlength="500"
               ></textarea>
+               <small class="error-text"></small>
               <input type="submit" class="btn-1" value="Get in Touch" />
             </form>
             </div>
             </div>
           </div>
         </footer>
+        </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
