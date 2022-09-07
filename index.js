@@ -145,8 +145,7 @@ contact.addEventListener('click', (e) => {
   hamburger.classList.remove('hide');
 });
 
-//popup
-
+// popup
 const portfolio = document.querySelector('#portfolio');
 const modal = document.querySelector('#myModal');
 
@@ -183,7 +182,7 @@ Array.from(portfolio.children).forEach((child, index) => {
   </section>`;
 });
 
-//modals
+// modals
 Array.from(portfolio.children).forEach((item, index) => {
   item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
     modal.innerHTML = `
@@ -224,7 +223,7 @@ Array.from(portfolio.children).forEach((item, index) => {
     </section>
     `;
 
-     const ulList = document.querySelector('.popup-block .tags');
+    const ulList = document.querySelector('.popup-block .tags');
 
     Object.keys(data[index].technologies).forEach((e) => {
       ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
