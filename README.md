@@ -1,5 +1,5 @@
-# Hello Project
-> This is my First Project in Microverse
+# Project Name
+> Portfolio
 ## Built with
 - HTML
 - CSS
