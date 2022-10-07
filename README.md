@@ -17,6 +17,12 @@
 - Github Account
 - IDE
 - Git
+- 
+<img src="https://github.com/Daphineatim/mobile-version-skeleton/blob/main/assets/work-images/Screenshot1.png " width="1000" height="450">
+<img src="" width="1000" height="450">
+<img src="" width="1000" height="450">
+ 
+
 
 
 ### Live 
