@@ -51,10 +51,10 @@ const data = [
   },
   {
     id: 'portfolio-3',
-    name: 'Tonic',
+    name: 'Rails Budget App',
     job: {
       client: 'Microverse',
-      role: 'Back End Dev',
+      role: 'Full Stack Dev',
       year: '2022',
     },
     description: {
@@ -76,10 +76,10 @@ const data = [
   },
   {
     id: 'portfolio-4',
-    name: 'Multi Stories Post',
+    name: 'Recipe App',
     job: {
       client: 'Microverse',
-      role: 'Back End Dev',
+      role: 'Full Stack Dev',
       year: '2022',
     },
     description: {
