@@ -1,14 +1,14 @@
 const data = [
   {
     id: 'portfolio-1',
-    name: 'Tonic',
+    name: 'Math-magician',
     job: {
       client: 'Canopy',
       role: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
 
       portfolio:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
@@ -30,7 +30,7 @@ const data = [
     job: {
       client: 'Canopy',
       role: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
     description: {
       summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -55,7 +55,7 @@ const data = [
     job: {
       client: 'Canopy',
       role: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
     description: {
       summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -80,7 +80,7 @@ const data = [
     job: {
       client: 'Canopy',
       role: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
     description: {
       summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
