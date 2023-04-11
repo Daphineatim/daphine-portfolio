@@ -3,7 +3,7 @@ const data = [
     id: 'portfolio-1',
     name: 'Math-magician',
     job: {
-      client: 'Canopy',
+      client: 'Microverse',
       role: 'Back End Dev',
       year: '2022',
     },
@@ -28,7 +28,7 @@ const data = [
     id: 'portfolio-2',
     name: 'Multi Stories Post',
     job: {
-      client: 'Canopy',
+      client: 'Microverse',
       role: 'Back End Dev',
       year: '2022',
     },
@@ -53,7 +53,7 @@ const data = [
     id: 'portfolio-3',
     name: 'Tonic',
     job: {
-      client: 'Canopy',
+      client: 'Microverse',
       role: 'Back End Dev',
       year: '2022',
     },
@@ -78,7 +78,7 @@ const data = [
     id: 'portfolio-4',
     name: 'Multi Stories Post',
     job: {
-      client: 'Canopy',
+      client: 'Microverse',
       role: 'Back End Dev',
       year: '2022',
     },
