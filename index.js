@@ -26,7 +26,7 @@ const data = [
   },
   {
     id: 'portfolio-2',
-    name: 'Multi Stories Post',
+    name: 'Recipe-App',
     job: {
       client: 'Microverse',
       role: 'Back End Dev',
@@ -55,7 +55,7 @@ const data = [
     job: {
       client: 'Microverse',
       role: 'Full Stack Dev',
-      year: '2022',
+      year: '2023',
     },
     description: {
       summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -76,7 +76,7 @@ const data = [
   },
   {
     id: 'portfolio-4',
-    name: 'Recipe App',
+    name: 'Awesome-Books',
     job: {
       client: 'Microverse',
       role: 'Full Stack Dev',
@@ -107,6 +107,57 @@ const navigation = document.querySelector('.nav-ul');
 const textPortfolio = document.querySelector('.nav-text-1');
 const about = document.querySelector('.nav-text-2');
 const contact = document.querySelector('.nav-text-3');
+const right1 = document.querySelector('#right-1');
+const right2 = document.querySelector('#right-2');
+const right3 = document.querySelector('#right-3');
+const down1 = document.querySelector('#down-1');
+const down2 = document.querySelector('#down-2');
+const down3 = document.querySelector('#down-3');
+const languages = document.querySelector('.language-list');
+const frameworks = document.querySelector('.frameworks-2');
+const skills = document.querySelector('.skills-2');
+
+right1.addEventListener('click', (e) => {
+  e.preventDefault();
+  down1.classList.remove('hide');
+  languages.classList.remove('hide');
+  right1.classList.add('hide');
+});
+
+down1.addEventListener('click', (e) => {
+  e.preventDefault();
+  right1.classList.remove('hide');
+  down1.classList.add('hide');
+  languages.classList.add('hide');
+});
+
+right2.addEventListener('click', (e) => {
+  e.preventDefault();
+  down2.classList.remove('hide');
+  frameworks.classList.remove('hide');
+  right2.classList.add('hide');
+});
+
+down2.addEventListener('click', (e) => {
+  e.preventDefault();
+  right2.classList.remove('hide');
+  down2.classList.add('hide');
+  frameworks.classList.add('hide');
+});
+
+right3.addEventListener('click', (e) => {
+  e.preventDefault();
+  down3.classList.remove('hide');
+  skills.classList.remove('hide');
+  right3.classList.add('hide');
+});
+
+down3.addEventListener('click', (e) => {
+  e.preventDefault();
+  right3.classList.remove('hide');
+  down3.classList.add('hide');
+  skills.classList.add('hide');
+});
 
 hamburger.addEventListener('click', (e) => {
   e.preventDefault();
@@ -122,6 +173,7 @@ hamburger.addEventListener('click', (e) => {
 close.addEventListener('click', () => {
   hamburger.classList.remove('hide');
   navigation.classList.remove('show');
+  close.classList.add('hide');
 });
 
 textPortfolio.addEventListener('click', (e) => {
@@ -129,6 +181,7 @@ textPortfolio.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 about.addEventListener('click', (e) => {
@@ -136,6 +189,7 @@ about.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 contact.addEventListener('click', (e) => {
@@ -143,6 +197,7 @@ contact.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 // popup
@@ -184,7 +239,9 @@ Array.from(portfolio.children).forEach((child, index) => {
 
 // modals
 Array.from(portfolio.children).forEach((item, index) => {
-  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
+  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener(
+    'click',
+    () => {
     modal.innerHTML = `
     // <!-- Modal content -->
     <section class="modal-content">
@@ -266,13 +323,13 @@ function validateEmail(input, invalidLowercase) {
   return showError(input, invalidLowercase);
 }
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
-  if (emailValid) {
-    form.submit();
-  }
-});
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
+//   if (emailValid) {
+//     form.submit();
+//   }
+// });
 
 // local storage
 function saveUserDetails() {

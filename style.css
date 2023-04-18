@@ -101,11 +101,7 @@ a {
 
 /* headline */
 .headline {
-  /* background-color: white; */
-
-  /* border-bottom-left-radius: 80px; */
   margin: 43px 0 0 0;
-  /* background: linear-gradient(245deg, #404d52, #80a9bb); */
   background: linear-gradient(245deg, #345765, #14323e);
 }
 
@@ -188,8 +184,6 @@ a {
 .card-img-right {
   display: flex;
   flex-direction: column;
-
-  /* background-color: #fff; */
   border-radius: 16px;
   background: linear-gradient(245deg, #384246, #144c64);
 }
@@ -389,8 +383,6 @@ hr {
 /* contact me */
 .contact-me {
   background: linear-gradient(245deg, #384246, #144c64);
-
-  /* border-top-left-radius: 80px; */
   padding-bottom: 10px;
 }
 
