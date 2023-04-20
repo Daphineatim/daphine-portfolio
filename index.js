@@ -4,18 +4,18 @@ const data = [
     name: 'Math-magician',
     job: {
       client: 'Microverse',
-      role: 'Back End Dev',
+      role: 'Front End Dev',
       year: '2022',
     },
     description: {
-      summary: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+      summary: '"Math magicians" is a website for all fans of mathematics.',
 
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        "It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
     },
     image: {
-      mobile: './assets/tonic.svg.svg',
-      desktop: './assets/nature.svg',
+      mobile: './assets/desktop-screenshot.PNG',
+      desktop: './assets/desktop-screenshot.PNG',
     },
     technologies: {
       html: 'html',
@@ -23,81 +23,86 @@ const data = [
       javascript: 'javascript',
     },
     card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Math-magician.git',
+    live: 'https://melodic-basbousa-cbc1ab.netlify.app/',
   },
   {
     id: 'portfolio-2',
-    name: 'Recipe-App',
+    name: 'Covid-19 Data App',
     job: {
       client: 'Microverse',
-      role: 'Back End Dev',
+      role: 'Front End Dev',
       year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'This website is mobile friendly and has two pages.',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        "The home page has the countries and the Details page shows the detailed covid data of each country selected.",
     },
     image: {
-      mobile: './assets/multi-post-2.svg',
-      desktop: './assets/multi-post-2.svg',
+      mobile: './assets/desktop-covid.PNG',
+      desktop: './assets/desktop-covid.PNG',
     },
     technologies: {
       html: 'html',
-      ror: 'ruby on rails',
       css: 'css',
       javascript: 'javascript',
     },
     card: 'card-img-right',
+    source: 'https://github.com/Daphineatim/covid-data-app.git',
+    live: 'https://deploy-preview-5--stellar-druid-061bd7.netlify.app/',
   },
   {
     id: 'portfolio-3',
-    name: 'Rails Budget App',
+    name: 'Leaderboard',
     job: {
       client: 'Microverse',
-      role: 'Full Stack Dev',
-      year: '2023',
-    },
-    description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    },
-    image: {
-      mobile: './assets/tonic-2.svg',
-      desktop: './assets/tonic.svg.svg',
-    },
-    technologies: {
-      html: 'html',
-      ror: 'Ruby on rails',
-      css: 'css',
-      javascript: 'javascript',
-    },
-    card: 'card-img-left',
-  },
-  {
-    id: 'portfolio-4',
-    name: 'Awesome-Books',
-    job: {
-      client: 'Microverse',
-      role: 'Full Stack Dev',
+      role: 'Front End Dev',
       year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'Leaderboard that shows the scores of different players,',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        "The scores and players information, fetched from an external API, the user can add his name and score as well which will be sent and stored in the external API. The project was built using JavaScript and bundled with Webpack.",
     },
     image: {
-      mobile: './assets/multi-post-2.svg',
-      desktop: './assets/multi-post-1.svg',
+      mobile: './assets/desktop-leaderboard.PNG',
+      desktop: './assets/desktop-leaderboard.PNG',
     },
     technologies: {
       html: 'html',
-      ror: 'Ruby on rails',
       css: 'css',
       javascript: 'javascript',
     },
     card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Leaderboard.git',
+    live: 'https://bucolic-maamoul-7501d7.netlify.app/',
+  },
+  {
+    id: 'portfolio-4',
+    name: 'Space Travelers Hub',
+    job: {
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
+    },
+    description: {
+      summary: 'A corporation that offers services for commercial and scientific space flight',
+      portfolio:
+        "The users of the app will be able to reserve rockets and sign up for particular space missions.",
+    },
+    image: {
+      mobile: './assets/mobile-space.PNG',
+      desktop: './assets/desktop-space.PNG',
+    },
+    technologies: {
+      html: 'html',
+      css: 'css',
+      javascript: 'javascript',
+    },
+    card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Space-Travelers-Hub.git',
+    live: 'https://adnanquinspacetravelers.netlify.app/',
   },
 ];
 
@@ -243,7 +248,7 @@ Array.from(portfolio.children).forEach((item, index) => {
     'click',
     () => {
     modal.innerHTML = `
-    // <!-- Modal content -->
+    <!-- Modal content -->
     <section class="modal-content">
       <div class="popup-text-group">
         <div class="text-group">
@@ -268,12 +273,12 @@ Array.from(portfolio.children).forEach((item, index) => {
           <ul class="tags ${data[index].id}">
           </ul>
           <div class="popup-actions">
-            <button class="btn btnImg" id="btn" type="button">See Live
-              <img src="./assets/Icon.svg" alt="icon" id="imgIcon" />
-            </button>
-            <button class="btn btnImg" id="btn" type="button">See Source
-              <img src="./assets/github.svg.svg" alt="icon" id="imgIcon" />
-            </button>
+          <a href="${data[index].live}" target="_blank" class="btn btnImg">Live
+          <img src="./assets/Icon.svg" alt="icon" id="imgIcon" />
+        </a>
+        <a href="${data[index].source}" target="_blank" class="btn btnImg">Source
+          <img src="./assets/github.svg.svg" alt="icon" id="imgIcon" />
+        </a>
           </div>
         </div>
       </div>
