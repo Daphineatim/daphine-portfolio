@@ -11,7 +11,7 @@ const data = [
       summary: '"Math magicians" is a website for all fans of mathematics.',
 
       portfolio:
-        "It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.",
+        'It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
     },
     image: {
       mobile: './assets/desktop-screenshot.PNG',
@@ -37,7 +37,7 @@ const data = [
     description: {
       summary: 'This website is mobile friendly and has two pages.',
       portfolio:
-        "The home page has the countries and the Details page shows the detailed covid data of each country selected.",
+        'The home page has the countries and the Details page shows the detailed covid data of each country selected.',
     },
     image: {
       mobile: './assets/desktop-covid.PNG',
@@ -63,7 +63,7 @@ const data = [
     description: {
       summary: 'Leaderboard that shows the scores of different players,',
       portfolio:
-        "The scores and players information, fetched from an external API, the user can add his name and score as well which will be sent and stored in the external API. The project was built using JavaScript and bundled with Webpack.",
+        'The scores and players information, fetched from an external API, the user can add his name and score as well which will be sent and stored in the external API. The project was built using JavaScript and bundled with Webpack.',
     },
     image: {
       mobile: './assets/desktop-leaderboard.PNG',
@@ -247,7 +247,7 @@ Array.from(portfolio.children).forEach((item, index) => {
   item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener(
     'click',
     () => {
-    modal.innerHTML = `
+      modal.innerHTML = `
     <!-- Modal content -->
     <section class="modal-content">
       <div class="popup-text-group">
@@ -285,23 +285,23 @@ Array.from(portfolio.children).forEach((item, index) => {
     </section>
     `;
 
-    const ulList = document.querySelector('.popup-block .tags');
+      const ulList = document.querySelector('.popup-block .tags');
 
-    Object.keys(data[index].technologies).forEach((e) => {
-      ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
-    });
+      Object.keys(data[index].technologies).forEach((e) => {
+        ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
+      });
 
-    modal.style.display = 'block';
-    const span = document.getElementsByClassName('close')[0];
-    span.addEventListener('click', () => {
-      modal.style.display = 'none';
-    });
-    window.addEventListener('click', (e) => {
-      if (e.target === modal) {
+      modal.style.display = 'block';
+      const span = document.getElementsByClassName('close')[0];
+      span.addEventListener('click', () => {
         modal.style.display = 'none';
-      }
+      });
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
     });
-  });
 });
 
 // form validation
