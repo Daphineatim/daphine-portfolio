@@ -26,7 +26,7 @@
 
 
 ### Live 
-[My Portfolio](https://daphineatim.github.io/mobile-version-skeleton/) 
+[My Portfolio](https://daphinehope.netlify.app/) 
 
 ## Authors
 
