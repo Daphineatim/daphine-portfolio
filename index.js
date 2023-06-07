@@ -1,21 +1,21 @@
 const data = [
   {
     id: 'portfolio-1',
-    name: 'Tonic',
+    name: 'Math-magician',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: '"Math magicians" is a website for all fans of mathematics.',
 
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
     },
     image: {
-      mobile: './assets/tonic.svg.svg',
-      desktop: './assets/nature.svg',
+      mobile: './assets/desktop-screenshot.PNG',
+      desktop: './assets/desktop-screenshot.PNG',
     },
     technologies: {
       html: 'html',
@@ -23,81 +23,86 @@ const data = [
       javascript: 'javascript',
     },
     card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Math-magician.git',
+    live: 'https://melodic-basbousa-cbc1ab.netlify.app/',
   },
   {
     id: 'portfolio-2',
-    name: 'Multi Stories Post',
+    name: 'Covid-19 Data App',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'This website is mobile friendly and has two pages.',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'The home page has the countries and the Details page shows the detailed covid data of each country selected.',
     },
     image: {
-      mobile: './assets/multi-post-2.svg',
-      desktop: './assets/multi-post-2.svg',
+      mobile: './assets/desktop-covid.PNG',
+      desktop: './assets/desktop-covid.PNG',
     },
     technologies: {
       html: 'html',
-      ror: 'ruby on rails',
       css: 'css',
       javascript: 'javascript',
     },
     card: 'card-img-right',
+    source: 'https://github.com/Daphineatim/covid-data-app.git',
+    live: 'https://deploy-preview-5--stellar-druid-061bd7.netlify.app/',
   },
   {
     id: 'portfolio-3',
-    name: 'Tonic',
+    name: 'Leaderboard',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'Leaderboard that shows the scores of different players,',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'The scores and players information, fetched from an external API, the user can add his name and score as well which will be sent and stored in the external API. The project was built using JavaScript and bundled with Webpack.',
     },
     image: {
-      mobile: './assets/tonic-2.svg',
-      desktop: './assets/tonic.svg.svg',
+      mobile: './assets/desktop-leaderboard.PNG',
+      desktop: './assets/desktop-leaderboard.PNG',
     },
     technologies: {
       html: 'html',
-      ror: 'Ruby on rails',
       css: 'css',
       javascript: 'javascript',
     },
     card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Leaderboard.git',
+    live: 'https://bucolic-maamoul-7501d7.netlify.app/',
   },
   {
     id: 'portfolio-4',
-    name: 'Multi Stories Post',
+    name: 'Space Travelers Hub',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'A corporation that offers services for commercial and scientific space flight',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        "The users of the app will be able to reserve rockets and sign up for particular space missions.",
     },
     image: {
-      mobile: './assets/multi-post-2.svg',
-      desktop: './assets/multi-post-1.svg',
+      mobile: './assets/mobile-space.PNG',
+      desktop: './assets/desktop-space.PNG',
     },
     technologies: {
       html: 'html',
-      ror: 'Ruby on rails',
       css: 'css',
       javascript: 'javascript',
     },
     card: 'card-img-left',
+    source: 'https://github.com/Daphineatim/Space-Travelers-Hub.git',
+    live: 'https://adnanquinspacetravelers.netlify.app/',
   },
 ];
 
@@ -107,6 +112,57 @@ const navigation = document.querySelector('.nav-ul');
 const textPortfolio = document.querySelector('.nav-text-1');
 const about = document.querySelector('.nav-text-2');
 const contact = document.querySelector('.nav-text-3');
+const right1 = document.querySelector('#right-1');
+const right2 = document.querySelector('#right-2');
+const right3 = document.querySelector('#right-3');
+const down1 = document.querySelector('#down-1');
+const down2 = document.querySelector('#down-2');
+const down3 = document.querySelector('#down-3');
+const languages = document.querySelector('.language-list');
+const frameworks = document.querySelector('.frameworks-2');
+const skills = document.querySelector('.skills-2');
+
+right1.addEventListener('click', (e) => {
+  e.preventDefault();
+  down1.classList.remove('hide');
+  languages.classList.remove('hide');
+  right1.classList.add('hide');
+});
+
+down1.addEventListener('click', (e) => {
+  e.preventDefault();
+  right1.classList.remove('hide');
+  down1.classList.add('hide');
+  languages.classList.add('hide');
+});
+
+right2.addEventListener('click', (e) => {
+  e.preventDefault();
+  down2.classList.remove('hide');
+  frameworks.classList.remove('hide');
+  right2.classList.add('hide');
+});
+
+down2.addEventListener('click', (e) => {
+  e.preventDefault();
+  right2.classList.remove('hide');
+  down2.classList.add('hide');
+  frameworks.classList.add('hide');
+});
+
+right3.addEventListener('click', (e) => {
+  e.preventDefault();
+  down3.classList.remove('hide');
+  skills.classList.remove('hide');
+  right3.classList.add('hide');
+});
+
+down3.addEventListener('click', (e) => {
+  e.preventDefault();
+  right3.classList.remove('hide');
+  down3.classList.add('hide');
+  skills.classList.add('hide');
+});
 
 hamburger.addEventListener('click', (e) => {
   e.preventDefault();
@@ -122,6 +178,7 @@ hamburger.addEventListener('click', (e) => {
 close.addEventListener('click', () => {
   hamburger.classList.remove('hide');
   navigation.classList.remove('show');
+  close.classList.add('hide');
 });
 
 textPortfolio.addEventListener('click', (e) => {
@@ -129,6 +186,7 @@ textPortfolio.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 about.addEventListener('click', (e) => {
@@ -136,6 +194,7 @@ about.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 contact.addEventListener('click', (e) => {
@@ -143,6 +202,7 @@ contact.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 // popup
@@ -184,9 +244,11 @@ Array.from(portfolio.children).forEach((child, index) => {
 
 // modals
 Array.from(portfolio.children).forEach((item, index) => {
-  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
-    modal.innerHTML = `
-    // <!-- Modal content -->
+  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener(
+    'click',
+    () => {
+      modal.innerHTML = `
+    <!-- Modal content -->
     <section class="modal-content">
       <div class="popup-text-group">
         <div class="text-group">
@@ -211,35 +273,35 @@ Array.from(portfolio.children).forEach((item, index) => {
           <ul class="tags ${data[index].id}">
           </ul>
           <div class="popup-actions">
-            <button class="btn btnImg" id="btn" type="button">See Live
-              <img src="./assets/Icon.svg" alt="icon" id="imgIcon" />
-            </button>
-            <button class="btn btnImg" id="btn" type="button">See Source
-              <img src="./assets/github.svg.svg" alt="icon" id="imgIcon" />
-            </button>
+          <a href="${data[index].live}" target="_blank" class="btn btnImg">Live
+          <img src="./assets/Icon.svg" alt="icon" id="imgIcon" />
+        </a>
+        <a href="${data[index].source}" target="_blank" class="btn btnImg">Source
+          <img src="./assets/github.svg.svg" alt="icon" id="imgIcon" />
+        </a>
           </div>
         </div>
       </div>
     </section>
     `;
 
-    const ulList = document.querySelector('.popup-block .tags');
+      const ulList = document.querySelector('.popup-block .tags');
 
-    Object.keys(data[index].technologies).forEach((e) => {
-      ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
-    });
+      Object.keys(data[index].technologies).forEach((e) => {
+        ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
+      });
 
-    modal.style.display = 'block';
-    const span = document.getElementsByClassName('close')[0];
-    span.addEventListener('click', () => {
-      modal.style.display = 'none';
-    });
-    window.addEventListener('click', (e) => {
-      if (e.target === modal) {
+      modal.style.display = 'block';
+      const span = document.getElementsByClassName('close')[0];
+      span.addEventListener('click', () => {
         modal.style.display = 'none';
-      }
+      });
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
     });
-  });
 });
 
 // form validation
@@ -266,13 +328,13 @@ function validateEmail(input, invalidLowercase) {
   return showError(input, invalidLowercase);
 }
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
-  if (emailValid) {
-    form.submit();
-  }
-});
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
+//   if (emailValid) {
+//     form.submit();
+//   }
+// });
 
 // local storage
 function saveUserDetails() {

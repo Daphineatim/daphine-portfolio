@@ -1,10 +1,8 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link
       rel="stylesheet"
@@ -12,7 +10,18 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dynamic.css" />
     <title>Daphine's Portfolio</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-50LYHEGXKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-50LYHEGXKX');
+  </script>
   </head>
   <body>
     <section class="container">
@@ -20,41 +29,77 @@
         <div class="logo">
           <div class="placeholder">
             <div><a href="/"></a></div>
-            <div>My Logo</div>
+            <!-- <div>Daphine Atim</div> -->
           </div>
         </div>
 
-        <button class="hamburger" id="hamburger">
+        <button type="button" class="hamburger" id="hamburger">
           <i class="fas fa-bars"></i>
         </button>
-        <button id="close" class="hide">
+        <button type="button" id="close" class="hide">
           <i class="fas fa-times"></i>
         </button>
         <ul class="nav-ul">
-          <li><a href="#portfolio" class="nav-text-1">Portfolio</a></li>
+          <li><a href="#portfolio" class="nav-text-1">My Projects</a></li>
           <li><a href="#about" class="nav-text-2">About</a></li>
           <li><a href="#contact" class="nav-text-3">Contact</a></li>
         </ul>
       </nav>
 
-    <section class="headline bg-image-1">  
-         <div class="text-container">
-          <h2 class="lg-text-1">I’m Daphine <br>Glad to see you!</h2>
-          <p class="sm-text-1">
-            I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t hestiate to contact me.
-          </p>
-          <h3 class="lg-text-3">Let's connect</h3>
-          <ul class="social-media">
-            <li><img src="./assets/twitter.svg" alt="twitter" /></li>
-            <li><img src="./assets/linkedin.svg.svg" alt="linkedIn" /></li>
-            <li><img src="./assets/medium.svg.svg" alt="medium" /></li>
-            <li><img src="./assets/github.svg.svg" alt="github" /></li>
-            <li><img src="./assets/angellist.svg.svg" alt="angellist" /></li>
-          </ul>
+      <section class="headline">
+        <div class="">
+          <!-- <div>
+            </div> -->
+          <div class="text-container">
+            <div class="heading__box">
+              <h1 class="lg-text-1">Hi, I’m Daphine Glad to see you!</h1>
+              <div class="avatarImg">
+                <img src="./assets/my-photo.PNG" alt="" />
+              </div>
+            </div>
+            <h2 class="sm-text-1">
+              I'm a full-stack developer with a passion for building intuitive
+              and scalable web applications. Skilled in frameworks such as
+              Rails, and ReactJS as well as a variety of technologies including
+              JavaScript, HTML, and CSS. Strong problem-solver with a track
+              record of delivering high-quality solutions on tight deadlines.
+              Always seeking to learn and grow as a developer.
+            </h2>
+            <a  href=mailto:"hopedaphine19@gmail.com">
+            <h3 class="lg-text-3 slidein">Let's connect</h3>
+          </a>
+            <ul class="social-media">
+              <li>
+              <a href="https://twitter.com/DhaPhyn" target="_blank">
+              <img src="./assets/twitter.svg" class="icon-image" alt="twitter" />
+              </a>
+              </li>
+              <li>
+            <a href="https://www.linkedin.com/in/daphine-atim/" target="_blank">
+              <img src="./assets/linkedin.svg.svg" class="icon-image" alt="linkedIn" />
+            </a>
+            </li>
+              <li>
+              <a href="https://medium.com/@hopedaphine19" target="_blank">
+              <img src="./assets/medium.svg.svg" class="icon-image" alt="medium" />
+              </a>
+            </li>
+              <li>
+                <a href="https://github.com/Daphineatim" target="_blank">
+                <img src="./assets/github.svg.svg" class="icon-image" alt="github" />
+                </a>
+              </li>
+              <li>
+                <a href="https://wellfound.com/profile" target="_blank">
+                <img src="./assets/angellist.svg.svg" class="icon-image" alt="angellist" />
+                </a>
+              </li>
+            </ul>
+            </div>
           </div>
-          </section>
-    
+        </div>
+      </section>
+
  <section id="portfolio">
         <section id="portfolio-1"></section>
         <section id="portfolio-2"></section>
@@ -63,57 +108,131 @@
       </section>
       <section id="myModal" class="modal"></section>
 
-    
       <section id="about">
         <div class="div-container about">
-        <div class="top">
-          <h2 class="lg-text-1 text-width">About Myself</h2>
-          <p class="sm-text-1">
-            Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!
-            If you like what you see and have a project you need coded, don’t hestiate to contact me.
-          </p>
-          <h3 class="lg-text-3">Let's connect</h3>
-          <ul class="social-media-2">
-            <li><img src="./assets/github.svg.svg" alt="github"></li>
-            <li><img src="./assets/linkedin.svg.svg" alt="linkedIn"></li>
-            <li><img src="./assets/angellist.svg.svg" alt="angellist"></li>
-            <li><img src="./assets/twitter.svg" alt="twitter"></li>
-            <li><img src="./assets/medium.svg.svg" alt="medium"></li>
-          </ul>
-          <button class="btn actions" type="button">Get my resume</button>
-        </div>
-        <div class="skill-list">
-          <div class="languages">
-            <h3 class="sm-text-2">Languages</h3>
-            <img src="./assets/Disabled.svg" alt="drop-down-button">
+          <div class="top">
+            <h2 class="lg-text-1-1 text-width">About Myself</h2>
+            <p class="sm-text-1-1">
+              Hello, I’m a software developer! I can help you build a product,
+              feature, or website. Look through some of my work and experience!
+              If you like what you see and have a project you need to be coded
+              for, don’t hesitate to contact me.
+            </p>
+            <a  href=mailto:"hopedaphine19@gmail.com">
+            <h3 class="lg-text-3-1">Let's connect</h3>
+          </a>
+            <ul class="social-media-2">
+              <li>
+                <a href="https://github.com/Daphineatim" target="_blank">
+                  <img src="./assets/github.svg.svg" class="icon-image" alt="github" />
+                  </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/DhaPhyn" target="_blank">
+                <img src="./assets/twitter.svg" class="icon-image" alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@hopedaphine19" target="_blank">
+                <img src="./assets/medium.svg.svg" class="icon-image" alt="medium" />
+                </a>
+              </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/daphine-atim/" target="_blank">
+                  <img src="./assets/linkedin.svg.svg" class="icon-image" alt="github" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wellfound.com/profile" target="_blank">
+                  <img src="./assets/angellist.svg.svg" class="icon-image" alt="angellist" />
+                  </a>
+                </li>
+            </ul>
+            <a href="https://docs.google.com/document/d/1FqOPLQ3qudvfjRulwvZzZZr2aNBT-Cy7D37_yeeI8ek/edit?usp=sharing"
+              class="btn actions" target="_blank">Get my resume</a>
           </div>
-          <ul class="language-list lg1">
-            <li><img src="./assets/javascript.svg.svg" alt="JavaScript"></li>
-            <li><img src="./assets/html.svg.svg" alt="HTML"></li>
-            <li><img src="./assets/css.svg.svg" alt="CSS"></li>
-          </ul>
-          <ul class="language-list lg2">
-            <li><img src="./assets/Frame-9.png" alt="JavaScript"></li>
-            <li><img src="./assets/Frame-10.png" alt="HTML"></li>
-            <li><img src="./assets/Frame-11.png" alt="CSS"></li>
-          </ul>
-          <div class="frameworks">
-            <h3 class="sm-text-2">Frameworks</h3>
-            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z" fill="#505F79"/>
-            </svg>
+          <div class="skill-list">
+            <div>
+              <div class="languages">
+                <h3 class="sm-text-1-1">Languages</h3>
+                <button type="button" class="disabled" id="right-1">
+                  <img src="./assets/icons8-right.png" alt="javascript" class="img" />
+                </button>
+                <button type="button" id="down-1" class="disabled hide">
+                  <img src="./assets/icons8-down.png" alt="javascript" class="img" />
+                </button>
+              </div>
+              <ul class="language-list hide">
+                <li>
+                  <img src="./assets/icons8-ruby.svg" alt="css" class="circle" />Ruby
+                </li>
+                <li>
+                  <img src="./assets/javascript.svg" alt="javascript" />JavaScript
+                </li>
+                <li><img src="./assets/html.svg" alt="html" />HTML</li>
+                <li><img src="./assets/css.svg" alt="css" />CSS</li>
+              </ul>
+            </div>
+            <hr />
+            <div class="frameworks">
+              <div class="frameworks-1">
+                <p class="sm-text-1-1">Frameworks</p>
+                <button type="button" class="disabled" id="right-2">
+                  <img src="./assets/icons8-right.png" alt="javascript" class="img" />
+                </button>
+                <button type="button" id="down-2" class="disabled hide">
+                  <img src="./assets/icons8-down.png" alt="javascript" class="img" />
+                </button>
+              </div>
+              <ul class="frameworks-2 hide">
+                <li>
+                  <img src="./assets/icons8-react.svg" alt="css" class="circle" />React
+                </li>
+                <li>
+                  <img src="./assets/rails.svg" alt="javascript" class="circle" />Rails
+                </li>
+                <li>
+                  <img src="./assets/icons8-postgresql.svg" alt="css" class="circle" />PostgreSQL
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="skills">
+              <!-- <h3 class="sm-text-2">Skills</h3> -->
+              <div class="skills-1">
+                <h3 class="sm-text-1-1">Skills</h3>
+                <button type="button" class="disabled" id="right-3">
+                  <img src="./assets/icons8-right.png" alt="javascript" class="img" />
+                </button>
+                <button type="button" id="down-3" class="disabled hide">
+                  <img src="./assets/icons8-down.png" alt="javascript" class="img" />
+                </button>
+              </div>
+              <ul class="skills-2 hide">
+                <li>
+                  <img src="./assets/icons8-git.svg" alt="css" class="circle" />Git
+                </li>
+                <li>
+                  <img src="./assets/icons8-github.svg" alt="javascript" class="circle" />Github
+                </li>
+                <li>
+                  <img src="./assets/icons8-heroku.svg" alt="css" class="circle" />Heroku
+                </li>
+                <li>
+                  <img src="./assets/icons8-netlify.png" alt="html" class="circle" />Netlify
+                </li>
+                <li>
+                  <img src="./assets/icons8-testing.png" alt="css" class="circle" />RSpec && TDD
+                </li>
+                <li>
+                  <img src="./assets/icons8-pair.png" alt="css" class="circle" />Pair Programming
+                </li>
+              </ul>
+            </div>
+            <hr />
           </div>
-          <hr />
-          <div class="skills">
-            <h3 class="sm-text-2">Skills</h3>
-            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z" fill="#505F79"/>
-            </svg>
-          </div>
-          <hr />
         </div>
-        </div>
-        </section>
+      </section>
 
         <footer class="bg-color-1" id="contact">
           <div class="contact-me">
